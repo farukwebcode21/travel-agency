@@ -1,0 +1,96 @@
+.mu-about {
+  background-color: #fefefe;
+  display: inline;
+  float: left;
+  width: 100%;
+}
+.mu-about-area {
+  display: inline;
+  float: left;
+  padding: 100px 0;
+  width: 100%;
+}
+.img {
+  border: none;
+  max-width: 100%;
+}
+.mu-about-left {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+.mu-about-right {
+  display: inline;
+  float: left;
+  margin-top: 35px;
+  width: 130%;
+  background-color: #fff;
+  padding: 40px;
+  margin-left: -175px;
+  box-shadow: 3px 1px 18px -9px #000;
+}
+.about-agency {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/*WHY US*/
+
+#mu-why-us {
+  background-color: #fff;
+  float: left;
+  padding: 50px 0 100px;
+  display: inline;
+  width: 100%;
+}
+
+.mu-why-us-area {
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
+.mu-why-us-area h2 {
+  color: #333;
+}
+
+.mu-why-us-content {
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.mu-why-us-single {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 0 5px;
+}
+
+.my-why-us-single-icon {
+  border: 1px solid #ccc;
+  font-size: 30px;
+  display: inline-block;
+  width: 85px;
+  height: 85px;
+  line-height: 85px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.mu-why-us-single h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.mu-why-us-single p {
+  font-size: 15px;
+}

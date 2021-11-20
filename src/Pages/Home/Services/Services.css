@@ -1,0 +1,70 @@
+.mu-video-area {
+  display: inline;
+  float: left;
+  position: relative;
+  padding: 100px 0;
+  text-align: center;
+  width: 100%;
+  z-index: 99;
+}
+.mu-video {
+  background-image: url("../../../Assets/Bannerimg/thierdbaner.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Feature Tours */
+
+.mu-featured-tours-area {
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+.mu-featured-tours-content {
+  display: inline;
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
+.mu-title-content {
+  padding: 0 10%;
+}
+
+/* mu feature tour single */
+.mu-featured-tours-single {
+  background-color: #f8f8f8;
+  display: inline;
+  float: left;
+  width: 100%;
+  margin: 15px 0;
+}
+.mu-featured-tours-single-info {
+  display: inline;
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 20px 10px;
+}
+.mu-price-tag {
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  color: #333;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.mu-featured-tours-single-info,
+.mu-book-now-btn {
+  margin-top: 10px;
+  font-size: 15px;
+  text-transform: capitalize;
+  float: right;
+}
+.trip-img {
+  border: none;
+  max-width: 100%;
+}
