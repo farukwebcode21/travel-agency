@@ -7,7 +7,7 @@ const Services = () => {
     const [servicess, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('/Services.json')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);
@@ -22,8 +22,8 @@ const Services = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="mu-video-area">
-                            <h2>Our Featured Toures</h2>
-                            <p className="mu-title-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui perferendis tenetur, blanditiis quia quibusdam voluptates iure, accusamus quis</p>
+                            <h2>Our Tour Package</h2>
+                            <p className="mu-title-content">Enjoy our Cheap Holiday packages from Bangladesh and create your own most memorable moment and a trip to remember with Obokash Travel with your loved ones</p>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const Services = () => {
                                 <div className="row">
                                     {
                                         servicess.map(service => <Service
-                                            key={service.key} service={service}
+                                            key={service._id} service={service}
                                             handleBooking={handleBooking}
                                         />)
                                     }

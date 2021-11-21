@@ -25,8 +25,8 @@ const About = () => {
                                 <div className="col-lg-6">
                                     <div className="mu-about-right">
                                         <h2 className="about-agency">About Our Agency</h2>
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores architecto repellat laborum et dicta doloribus dolorem eius quidem tempora. Beatae fuga obcaecati </p>
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores architecto repellat laborum et dicta</p>
+                                        <p>Travel Leaders travel agents will take the time to understand your unique travel interests and aspirations, until we "get you.</p>
+                                        <p>We then use our education, first-hand travel experience and relationships with airlines, car, hotel, resort, tour and cruise supplier partners to make sure you enjoy an exceptional personalized travel experience that will create memories to last a lifetime.</p>
                                     </div>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ const About = () => {
                 </div>
             </div>
             <div className="container">
-                <div className="row">
+                <div className="row border shadow my-3 py-3">
                     <div className="col-lg-12">
                         <div className="mu-why-us-area">
                             <h2>Why us ?</h2>
@@ -45,21 +45,21 @@ const About = () => {
                                         <div className="mu-why-us-single">
                                             <div className="my-why-us-single-icon">{bed}</div>
                                             <h3>Luxurious Hotels</h3>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis saepe magnam quo dolorem eveniet error quae omnis suscipit distinctio! Vitae necessitatibus</p>
+                                            <p>If you desire an all five-star service and experience, staying in a luxury hotel</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="mu-why-us-single">
                                             <div className="my-why-us-single-icon">{plane }</div>
                                             <h3>Unique Experience</h3>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis saepe magnam quo dolorem eveniet error quae omnis suscipit distinctio! Vitae necessitatibus</p>
+                                            <p>Another way to say Unique Experience? Synonyms for Unique Experience</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4">
                                         <div className="mu-why-us-single">
                                             <div className="my-why-us-single-icon">{thumbsup }</div>
                                             <h3>The Best Service</h3>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis saepe magnam quo dolorem eveniet error quae omnis suscipit distinctio! Vitae necessitatibus</p>
+                                            <p>Great customer service means following best practices like valuing customers’ time</p>
                                         </div>
                                     </div>
                                 </div>

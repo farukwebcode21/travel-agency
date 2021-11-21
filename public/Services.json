@@ -5,7 +5,7 @@
     "country": "Abu Dhabi",
     "day": "2 Days, 3 Nights",
     "price": "$3450",
-    "descrip": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem earum sed. Sint, magnam eligendi!"
+    "descrip": "Book a 2 nights, 3 days Abu Dhabi tour package for an exceptional vacationing experience"
   },
   {
     "key": 2,
@@ -13,7 +13,7 @@
     "country": "Thailand",
     "day": "2 Days, 3 Nights",
     "price": "$3450",
-    "descrip": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem earum sed. Sint, magnam eligendi!"
+    "descrip": "Bangkok Tour Package From Bangladesh, Bangkok 3 Days 2 Nights Tour Package From Bangladesh, Bangkok and Pattaya Tour Package From Bangladesh, "
   },
   {
     "key": 3,
@@ -21,7 +21,7 @@
     "country": "France",
     "day": "2 Days, 3 Nights",
     "price": "$3450",
-    "descrip": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem earum sed. Sint, magnam eligendi!"
+    "descrip": "European countries have been one of the most famous and attractive places in the world we live in,and France is one of them, a must visit place for everyone. Parisis the capital city,and the country’s total population is 67,348,000. It is a beautiful country bordered by Spain and Andorra to the South, Switzerland and Italy to the East and Belgium,"
   },
   {
     "key": 4,
@@ -29,7 +29,7 @@
     "country": "Switzerland",
     "day": "2 Days, 3 Nights",
     "price": "$1450",
-    "descrip": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem earum sed. Sint, magnam eligendi!"
+    "descrip": "Switzerland is a beautiful country in Europe and this destination is among the top most destinations which generally people prefer to visit. Switzerland is filled with astonishing natural bliss, magnificent Alps, serene lakes, calm villages and cosmopolitan cities and sky kissing castles. "
   },
   {
     "key": 5,
@@ -37,7 +37,7 @@
     "country": "Italy",
     "day": "1 Days, 2 Nights",
     "price": "$4050",
-    "descrip": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem earum sed. Sint, magnam eligendi!"
+    "descrip": "The country of Italy epitomises the holiday destination of dreams. It is a nation that is defined by magnificent cities, ancient sights, cultural treasures, and beautiful scenery. There are so many choices for travellers; it's simply hard to know where to begin. To explore the most of what Italy h..."
   },
   {
     "key": 6,
@@ -45,7 +45,7 @@
     "country": "England",
     "day": "3 Days, 4 Nights",
     "price": "$4150",
-    "descrip": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem earum sed. Sint, magnam eligendi!",
+    "descrip": "London is one of the world’s largest and most exciting cities, offering visitors thousands of things to do, including museums, royal palaces, beautiful parks, historical sites, and world-class theatre",
     "traveler": [
       {
         "index": 0,

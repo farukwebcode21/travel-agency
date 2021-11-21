@@ -7,7 +7,7 @@ const Header = () => {
    const {user, logOut} = useAuth();
     return (
         <div className="container">
-            <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <header className="d-flex flex-wrap justify-content-center py-3 mb-1 border-bottom">
             <Link to="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <span className="fs-4">World Travels</span>
             </Link>
@@ -15,8 +15,8 @@ const Header = () => {
                 <li className="nav-item"><Link to="/home" className="nav-link" aria-current="page">Home</Link></li>
                 <li className="nav-item"><Link to="/about" className="nav-link">About</Link></li>
                 <li className="nav-item"><Link to="/services" className="nav-link">Services</Link></li>
-                <li className="nav-item"><Link to="/travelers" className="nav-link">Travelers</Link></li>
-                <li className="nav-item"><Link to="/contactus" className="nav-link">Contact Us</Link></li>
+                {user.email && <li className="nav-item"><Link to="/travelers" className="nav-link">My Booking</Link></li>}
+                {user.email && <li className="nav-item"><Link to="/contactus" className="nav-link">Add Offer</Link></li>}
                 {
                     user.email ?
                         <li className="nav-item"><button onClick={logOut} className="nav-link">Log Out</button></li> :
