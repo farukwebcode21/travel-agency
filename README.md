@@ -8,9 +8,4 @@
 
 ## which plugin use this project
 
-[https://v5.reactrouter.com/] react-router-dom
-[] ReactBootstrap
-[] Bootstrap Update version CDN Link
-[] fontawesome
-[] googel font
-[x] Firebase
+react-router-dom ReactBootstrap Bootstrap Update version CDN Link fontawesome googel font Firebase
