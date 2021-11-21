@@ -8,7 +8,7 @@ const Contact = () => {
   const onSubmit = (data) => {
     console.log(data);
 
-    axios.post("http://localhost:5000/services", data).then((res) => {
+    axios.post("https://glacial-island-83833.herokuapp.com/services", data).then((res) => {
       if (res.data.insertedId) {
         alert("Successfully Added");
         reset();
